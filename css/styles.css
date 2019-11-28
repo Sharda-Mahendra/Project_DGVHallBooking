@@ -1,15 +1,16 @@
-/* body{
-  padding-top:5rem;
-} */
 .contact {
-    padding: 5rem;
-    background-color: grey;
-  }
-
-  .responsive {
-    padding: 0 6px;
-    float: left;
-    width: 24.99999%;
-  }
-  
-  
+  padding: 5rem;
+  background-color: grey;
+}
+.gallery_container {
+  padding: 5rem;
+}
+.gallery {
+  float: left;
+  width: 25%;
+  height: auto;
+}
+.gallery img {
+  width: 90%;
+  height: auto;
+}
