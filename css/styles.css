@@ -13,3 +13,17 @@
   }
   
   
+
+.gallery_container {
+  padding: 5rem;
+}
+div.gallery {
+  float: left;
+  width: 25%;
+  height: auto;
+}
+div.gallery img {
+  width: 90%;
+  height: auto;
+}
+
