@@ -1,3 +1,15 @@
-body {
-    padding-top: 5rem;
+/* body{
+  padding-top:5rem;
+} */
+.contact {
+    padding: 5rem;
+    background-color: grey;
   }
+
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  
