@@ -4,8 +4,6 @@ body{
 
 .contact {
   padding: 5rem;
-  
-  /* background-color: grey; */
 }
 .gallery_container {
   padding: 5rem;
@@ -54,6 +52,10 @@ body{
   }
 
   .button-container{
-    padding-left:35rem;
+    padding-left:25rem;
     padding-bottom: 5rem;
+  }
+
+  #iframeHolder{
+    padding-left:1.6rem;
   }
