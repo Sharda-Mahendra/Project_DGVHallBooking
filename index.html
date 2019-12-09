@@ -31,7 +31,7 @@
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./image/DGVimage1.jpg" class="b-block w-100" alt="Drayton village Hall">
+                    <img src="./image/DGVimage1.jpg" class="d-block w-100" alt="Drayton village Hall">
                 </div>
                 <!-- <div class="carousel-item">
                     <img src="..." class="d-block w-100" alt="...">
@@ -41,32 +41,42 @@
                 </div> -->
             </div>
         </div>
-        <!-- <h1>Drayton village Hall</h1> -->
-        <!-- <img src="./Drayton_Hall_image.jpg" alt="Drayton village Hall"> -->
-        <h2>Welcome to Drayton Garden Village</h2>
-        <p>A newly built vibrant hall with great interior that can accommodate around 50 people,includes a kitchen,lavatory.</p>
-        <p>It has great connections to the very heart of London, which can be reached in just 25 minutes by train.Situated about one and a half miles north of the M4/M25 interchange and close to the M40 and M3, there is fast access to motorway networks leading to all parts of the UK.</p>
-        <h2>Hall Booking</h2>
-        <p> Village Hall is available for booking your events</p>
-        <ul>
-            <li>Birthday party</li>
-            <li>Anniversary</li>
-            <li>Community gathering</li>
-            <li>Fitness programme</li>
-            <li>Corporate Events</li>
+        <div class="container-home">
+          <div class="home-text">
+            <h2>Welcome to Drayton Garden Village</h2>
+            <p>A newly built vibrant hall with great interior that can accommodate around 50 people,includes a kitchen,lavatory.
+            </p>
+            <p>It has great connections to the very heart of London, which can be reached in just 25 minutes by train.Situated
+              about one and a half miles north of the M4/M25 interchange and close to the M40 and M3, there is fast access to
+              motorway networks leading to all parts of the UK.</p>
+            <p> Village Hall is available for booking your events</p>
+            <ul>
+              <li>Birthday party</li>
+              <li>Anniversary</li>
+              <li>Community gathering</li>
+              <li>Fitness programme</li>
+              <li>Corporate Events</li>
+            </ul>
+          </div>
+        
+          <form class="button-container">
+            <button id="button1" type="submit">Make Bookings Here</button>
+         </form>
 
-        </ul>
-        <p><a href="https://calendar.google.com/calendar/r" target="_blank">Bookings</a></p>
+        <iframe name="iframe1" src="https://calendar.google.com/calendar/b/3/embed?height=600&amp;wkst=1&amp;bgcolor=%23E4C441&amp;ctz=Europe%2FLondon&amp;src=ZGd2cmVzaWRlbnRzLmNvLnVrX3ZqNGdwYm5sMGZ1cHFwNzFjcTJnZnZjajNnQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=ZW4udWsjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23402175&amp;color=%231F753C&amp;showTitle=1&amp;showNav=1&amp;showPrint=1&amp;showCalendars=1" style="border:solid 1px #777" width="1000" height="600" frameborder="0"  scrolling="no"></iframe>
+      </div>
+
         <!-- Bootstrap core JavaScript
             ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
+        <script src="js/buttonclick.js"></script>
+        <script src="jquery-3.2.1.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
             crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
         <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
         <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
-        <img src="./Image/ContactUs.png" alt="Contact us">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.4410272335153!2d-0.46140188423010886!3d51.50512437963465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876720f8c9e26c7%3A0xac92c3bb78e90ea4!2sDrayton%20Garden%20Village%20Hall!5e0!3m2!1sen!2suk!4v1574851231864!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="">Find us</iframe>
     </body>
 </html>
