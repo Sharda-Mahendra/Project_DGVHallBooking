@@ -12,13 +12,18 @@ body{
 /* The grid: column */
 .column {
   float: centre;
-  padding: 20px;
+  flex:10%;
+  max-width: 25%;
+  padding:20px 4px;
 }
 
 /* image style */
 .column img {
   opacity: 0.8;
   cursor: pointer;
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
 }
 
 .column img:hover {
