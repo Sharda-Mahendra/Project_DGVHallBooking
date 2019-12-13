@@ -3,7 +3,7 @@ body{
 }
 
 .contact {
-  padding: 5rem;
+  padding: 5rem 2rem 3rem 2rem;
 }
 .row {
   padding: 3rem;
@@ -43,24 +43,16 @@ body{
 }
 
 .container-home{
+  padding: 2rem 2rem 3rem 2rem;
   background-size: cover; 
-  font-family: fantasy, 'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  
-}
-
-.home-text{
-  padding-top:50px;
-  padding-left:30px;
-  padding-right:30px;
-  text-align: left;
+  font-family: fantasy, 'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+  text-align: left;  
 }
 
 .iframe-container{
-  padding: 15px;
+  padding: 2rem 2rem 2rem 2rem;
   border:transparent;
-  display: none;
-  text-align: center;
-
+  display: inline;
 }
 
 #button1 {
@@ -77,11 +69,6 @@ body{
   }
 
   .button-container{
-    padding-left:25rem;
-    padding-bottom: 5rem;
+    display: flex; 
+    justify-content: center;
   }
-
-  #iframeHolder{
-    padding-left:1.6rem;
-  }
-
