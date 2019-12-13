@@ -3,7 +3,7 @@ body{
 }
 
 .contact {
-  padding: 5rem 5rem 0rem 5rem;
+  padding: 5rem 2rem 0rem 2rem;
 }
 
 .gallery_container {
@@ -22,20 +22,16 @@ body{
 }
 
 .container-home{
-  padding: 2rem 5rem 0rem 5rem;
+  padding: 2rem 2rem 0rem 2rem;
   background-size: cover; 
   font-family: fantasy, 'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
-}
-
-.home-text{
-  text-align: left;
+  text-align: left;  
 }
 
 .iframe-container{
-  padding: 5rem 5rem 0rem 5rem;
+  padding: 2rem 2rem 0rem 2rem;
   border:transparent;
-  display: none;
-  text-align: center;
+  display: inline;
 }
 
 #button1 {
@@ -52,12 +48,6 @@ body{
   }
 
   .button-container{
-    padding-bottom: 1rem;
-    display: flex; 
-    justify-content: center;
-  }
-
-  #iframeHolder{
     display: flex; 
     justify-content: center;
   }
