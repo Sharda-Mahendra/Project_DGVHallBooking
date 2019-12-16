@@ -1,20 +1,21 @@
-body{
+body {
   background-image: url(../Image/home-bg-img1.jpg);
 }
 
 .contact {
-  padding: 5rem 2rem 3rem 2rem;
+  padding: 5rem 4rem 3rem 4rem;
 }
-.row {
-  padding: 3rem;
+/* The grid:row */
+.row{
+  padding: 5rem;
 }
 
 /* The grid: column */
 .column {
   float: centre;
-  flex:10%;
+  flex: 10%;
   max-width: 25%;
-  padding:20px 4px;
+  padding: 20px 4px;
 }
 
 /* image style */
@@ -38,23 +39,27 @@ body{
 
 /* The expanding image container */
 .container {
-  display:flex;
-  justify-content:center;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3rem;
 }
 
-.container-home{
-  padding: 2rem 2rem 3rem 2rem;
-  background-size: cover; 
-  font-family: fantasy, 'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
-  text-align: left;  
+.container-home {
+  padding: 2rem 3rem 3rem 4rem;
+  background-size: cover;
+  font-family: fantasy, "Times New Roman", Times, serif, Haettenschweiler,
+    "Arial Narrow Bold", sans-serif;
+  text-align: left;
 }
 
-.iframe-container{
-  padding: 2rem 2rem 2rem 2rem;
-  border:transparent;
+.iframe-container {
+  padding: 2rem 10rem 2rem 10rem;
+  border: transparent;
   display: inline;
+  justify-content: center;
 }
 
+/* Booking button*/
 #button1 {
   background-color: #6c96af;
   border: none;
@@ -66,9 +71,47 @@ body{
   font-size: 20px;
   margin: 4px 2px;
   cursor: pointer;
-  }
+}
 
-  .button-container{
-    display: flex; 
-    justify-content: center;
-  }
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+/* Social media icon CSS */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color*/
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
